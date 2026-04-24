@@ -1,0 +1,30 @@
+# -------- Core LangChain --------
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# -------- Mistral Integration --------
+mistralai>=1.0.0
+langchain-mistralai>=0.1.0
+
+# -------- Environment --------
+python-dotenv>=1.0.0
+
+# -------- UI (Streamlit App) --------
+streamlit>=1.30.0
+
+# -------- Vector DB (RAG) --------
+faiss-cpu>=1.7.4
+
+# -------- Tokenization --------
+tiktoken>=0.7.0
+
+# -------- Backend (Optional API) --------
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# -------- Validation --------
+pydantic>=2.0.0
+
+# -------- Utilities --------
+requests>=2.31.0
